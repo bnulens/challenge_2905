@@ -2,6 +2,7 @@
 
 #frame {
 
+
     display: flex;
     justify-content: center;
     align-content: center;
@@ -10,7 +11,10 @@
 
 #minefield {
 
-    border: 3.5px solid rgb(44, 44, 44);
+    border-right: 12px solid rgb(43, 18, 13);
+    border-bottom: 12px solid rgb(43, 18, 13);
+    border-left:12px solid #eeeeee;
+    border-top: 12px solid #8b8b8b;
     width: 520px;
     height: 520px;
     
@@ -109,6 +113,36 @@ img {
 
 }
 .undiscovered:hover {
-    background-color: rgb(46, 46, 46);
+    background-image: url(flag.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    justify-content: center;
   }
 
+img:hover {
+    background-color: red;
+}
+
+#One:hover {
+    background-color: green;
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    padding: 1px;
+}
+
+#Two:hover {
+    background-color: green;
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    padding: 1px;
+}
+
+#Three:hover {
+    background-color: green;
+    width: 48px;
+    height: 48px;
+    align-self: center;
+    padding: 1px;
+}
