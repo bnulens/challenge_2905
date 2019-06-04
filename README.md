@@ -1,6 +1,8 @@
 # challenge_2905
 Minesweeper
 
+# _https://bnulens.github.io/challenge_2905/_
+
 # Challenge: Flexing your CSS muscles
 
 |Challenge Parameters  |Challenge Details              |
